@@ -1,0 +1,108 @@
+[[!toc]]
+
+## Raidler
+
+                 |          ICC          |
+          |weekly| 10N | 25N | 10H | 25H | rs10 | voa25
+    Eldt  |      |     |     |     |     |      |
+    Eldk  |   x  |     |  x  |     |     |      |
+    Eldh  |   x  |     |  x  |     |     |      |
+
+
+## Gunluk yapilacaklar
+
+1. RDF HC
+2. JW quest
+3. Cooking quest
+4. Fishing quest
+5. Alchemy transmute
+
+## Alchemy
+
+* [[Endless rage (180 ap)|http://www.wowhead.com/spell=53903/flask-of-endless-rage]]: 7 lichbloom 3 goldcover 1 frost lotus
+* [[Stoneblood (1300 hp)|http://www.wowhead.com/spell=53902/flask-of-stoneblood]]: 7 lichbloom 3 crystallized life 1 frost lotus
+* [[Mighty strength (50 str)|http://www.wowhead.com/item=40073/elixir-of-mighty-strength]]: 2 tiger lily
+* [[Wrath elixir (90 ap)|http://www.wowhead.com/spell=53841]]: 1 goldcover 2 deadnette
+
+## AH
+
+* Groomsblood: 1k
+* Mountain silversage: 950g
+* Fadeleaf: 410g
+* Netherbloom: 320g
+* Adamantite bar: tanesi 200g
+* Ancient Lichen: tanesi 250g sethekk halls da steath olup farmlaniyo
+* Goldthorn: stack'i 1.2k gibi bisey
+
+## JC
+
+* Solid Majestic Zircon (30 sta blue)
+* Enduring Eye of Zul (10 def 15 sta yellow or blue)
+* Inscribed Ametrine (10 crit 10 str yellow or red)
+* Guardian's Dreadstone (15 exp 10 sta red or blue)
+* Puissant Dreadstone (15 apr 10 sta red or blue)
+* Bold Cardinal Ruby (20 str)
+
+## Linkler
+
+* [[Frost dk tanking guide|http://www.arenajunkies.com/topic/33160-death-knight-tanking-guide/]]
+* [[Frost DW Guide|http://www.youtube.com/watch?v=uYw9rvpFIrg]]
+* [[Zapthrottle Mote Extractor|http://www.wowhead.com/item=23821/zapthrottle-mote-extractor]]
+
+
+## Tank BS gear
+
+              Sar  |  Cob   |
+    Head   |   12  |        |
+    Neck   |       |        |
+    Shoul  |   12  |        |
+    Back   |       |        |
+    Chest  |    5  |    6   |
+    Waist  |    5  |    6   |
+    Legs   |   14  |        |
+    Feet   |    8  |    3   |
+    Wrist  |   13  |    0   |
+    Hands  |   14  |        |
+    Weapon |       |        |
+    Shield |   14  |        |
+    Trin1  |       |        |
+    Trin2  |       |        |
+    -------------------------
+           |   97  |   14   |
+
+## Birce
+<pre>
+192acc name : BBT1324 pass: kakalak1335
+disimtl mythomillo
+PointBlek idemdalje
+
+[Daunting Handguards] hand 12 saronite 1 earth
+[Tempered Saronite Shoulders] 12 saronite
+[Tempered Saronite Belt] 6 cobalt 5 saronite
+[Daunting Legplates] 12 saronite 1 earth
+
+Tempered Titansteel Helm 4 Saronite 4 Titansteel 1 Frozen Orb
+
+6 mavi sparkling majestic zircon
+1 kirmizi purified dreadstone
+3 sari intricate eye of zul
+
+gumby bitter tyli mali bibip icy inestus eld aelyn grandeal
+  X     X      X   X                X     X     x        
+
+02323410601
+LUCKY STRIKE BEYAZ
+MAVI WICE ROY
+
+armagan cAGLAYAN sitesi a block daire 3
+
+vojtech.lol@hotmail.com
+
+http://s3.dosya.tc/server2/jrajzn/TheHitchhikerHack3.3.5.rar.html
+
+c423 inv for sunday
+
+tonystark pajamapartie bonito
+
+blackvale
+</pre>

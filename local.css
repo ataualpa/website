@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans|Strait);
+body {
+  color: #333;
+}
+#header {
+  font-family: 'Strait', sans-serif;
+  border: 1px solid #ccc;
+  border-top: none;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #fff, #eee);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #fff, #eee);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #fff, #eee);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #fff, #eee);
+}
+#header {
+  margin-bottom: 20px;
+}
+#header,
+#header a {
+  color: #666;
+  font-size: 16px;
+  text-decoration: none;
+}
+#header p {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+#header a span.motto {
+  color: #bbb;
+  font-style: italic;
+  font-size: 12px;
+}
+#header div.headersag {
+  width: 460px;
+  color: #ccc;
+  text-align: right;
+}
+#header div.headersag,
+#header div.headersag a {
+  padding-top: 3px;
+  font-size: 12px;
+}
+#body {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+a {
+  color: #000cff;
+}
+a:hover {
+  color: #313bff;
+}
+#footer {
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+#footer div.meta, #footer div.meta span {
+  color: #999;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Average Sans', sans-serif;
+}

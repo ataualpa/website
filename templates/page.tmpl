@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title><TMPL_IF TITLE><TMPL_VAR TITLE> - </TMPL_IF>Onur Aslan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="<TMPL_VAR BASEURL>css/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="<TMPL_VAR BASEURL>css/blueprint/print.css" type="text/css" media="print">
+<link rel="stylesheet" type="text/css" href="<TMPL_VAR BASEURL>local.css" />
+<TMPL_IF DYNAMIC>
+<TMPL_IF FORCEBASEURL><base href="<TMPL_VAR FORCEBASEURL>" /><TMPL_ELSE>
+<TMPL_IF BASEURL><base href="<TMPL_VAR BASEURL>" /></TMPL_IF>
+</TMPL_IF>
+</TMPL_IF>
+<TMPL_IF FEEDLINKS><TMPL_VAR FEEDLINKS></TMPL_IF>
+<TMPL_IF RELVCS><TMPL_VAR RELVCS></TMPL_IF>
+<TMPL_IF META><TMPL_VAR META></TMPL_IF>
+<TMPL_LOOP TRAILLOOP>
+<TMPL_IF PREVPAGE>
+<link rel="prev" href="<TMPL_VAR PREVURL>" title="<TMPL_VAR PREVTITLE>" />
+</TMPL_IF>
+<link rel="up" href="<TMPL_VAR TRAILURL>" title="<TMPL_VAR TRAILTITLE>" />
+<TMPL_IF NEXTPAGE>
+<link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
+</TMPL_IF>
+</TMPL_LOOP>
+</head>
+
+<body>
+<div class="container">
+  <div id="header" class="span-24 last">
+    <div class="span-12">
+      <p class="header"><a href="<TMPL_IF BASEURL><TMPL_VAR BASEURL><TMPL_ELSE>./</TMPL_IF>">Onur Aslan
+        <span class="motto">I am Jack's wasted life.</span></a></p>
+    </div>
+    <div class="span-12 last headersag">
+      <p>
+        <a href="<TMPL_IF BASEURL><TMPL_VAR BASEURL><TMPL_ELSE>./</TMPL_IF>">Home</a> |
+        <a href="<TMPL_VAR BASEURL>blog/">Blog</a>
+      </p>
+    </div>
+  </div>
+  <div id="body" class="span-24 last">
+<TMPL_IF SIDEBAR>
+    <div class="main-sol">
+      <TMPL_VAR CONTENT>
+    </div>
+    <div class="main-sag">
+      <TMPL_VAR SIDEBAR>
+    </div>
+<TMPL_ELSE>
+      <TMPL_VAR CONTENT>
+</TMPL_IF>
+  </div>
+  <div id="footer">
+    <div class="licence">
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
+    </div>
+    <div class="meta">
+      Last edited <TMPL_VAR MTIME>
+    </div>
+  </div>
+</div>
+</body>
+</html>

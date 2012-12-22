@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans|Strait);
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  text-align: center;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+div.main {
+  width: 960px;
+  text-align: left;
+  margin: 0 auto;
+}
+#header {
+  @import url(http://fonts.googleapis.com/css?family=Strait);
+  font-family: 'Strait', sans-serif;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-top: none;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #fff, #eee);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #fff, #eee);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #fff, #eee);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #fff, #eee);
+}
+#header h1, #header h1 a {
+  color: #666;
+  font-size: 16px;
+  padding: 8px;
+  margin: 0;
+  line-height: 15px;
+  text-decoration: none;
+}
+#header h1 span.motto {
+  color: #bbb;
+  font-style: italic;
+  font-size: 12px;
+}
+#body {
+  margin-top: 30px;
+}
+div.main-sol {
+  width: 750px;
+  float: left;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+div.main-sag {
+  width: 180px;
+  margin-left: 780px;
+}
+h1, h2, h3, h4, h5 {
+  margin-bottom: 10px;
+  font-family: 'Average Sans', sans-serif;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+p {
+  padding-bottom: 20px;
+}
+ul {
+  margin-left: 20px;
+}
+a {
+  color: #000cff;
+}
