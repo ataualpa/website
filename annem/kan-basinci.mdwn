@@ -1,0 +1,8 @@
+
+## Kan basıncı
+
+[[!table data="""
+Tarih   |Saat   |Systolic |Diastolic |Nabız
+4 Ocak  |10:55  |110      |73        |69
+4 Ocak  |12:38  |117      |72        |62
+"""]]
