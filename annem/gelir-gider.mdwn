@@ -3,8 +3,7 @@
 
 [[!table data="""
 Tarih   |Cekilen |Harcanan      |Not
--       |350     |150           |Annemin cuzdanindan aldigim parayi,
-                                 meriye elektrik parasini yatirmasi icin verdim
+-       |350     |150           |Annemin cuzdanindan aldigim parayi, meriye elektrik parasini yatirmasi icin verdim
 -       |100     |60            |Kinesiotape
 3 Ocak  |300     |90, 35        |Seker ve tansiyon aleti, otomatik aidati
 4 Ocak  |100     |120           |Tansiyon aleti p2
