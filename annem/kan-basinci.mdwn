@@ -1,5 +1,7 @@
 ## Kan basıncı
 
+[[!img http://www.vaughns-1-pagers.com/medicine/blood-pressure-chart.gif]]
+
 [[!table data="""
 Tarih   |Saat   |Systolic |Diastolic |Nabız
 4 Ocak  |10:55  |110      |73        |69
