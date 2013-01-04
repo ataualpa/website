@@ -1,0 +1,9 @@
+
+## Kan glukoz değerleri
+
+[[!table data="""
+Tarih   |Saat   |Glukoz (mg)   |Not
+3 Ocak  |12:35  |128           |Tok
+3 Ocak  |23:00  |157           |Yatmadan önce
+4 Ocak  |10:00  |113           |Aç karnına (10 mg insilun yaptım)
+"""]]
