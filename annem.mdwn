@@ -1,6 +1,5 @@
-
 # Annem
 
 Annem'in [[kan şekeri|glukoz]] ve [[kan basıncı|kan-basinci]] değerleri:
 
-[[!inline pages="annem/glukoz and annem/kan-basinci"]]
+[[!inline pages="annem/glukoz or annem/kan-basinci"]]
