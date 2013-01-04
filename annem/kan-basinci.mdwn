@@ -1,6 +1,6 @@
 ## Kan basıncı
 
-[[!img http://www.vaughns-1-pagers.com/medicine/blood-pressure-chart.gif]]
+<img src="http://www.vaughns-1-pagers.com/medicine/blood-pressure-chart.gif" alt="" />
 
 [[!table data="""
 Tarih   |Saat   |Systolic |Diastolic |Nabız
