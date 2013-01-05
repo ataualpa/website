@@ -7,4 +7,5 @@ Tarih   |Saat   |Glukoz (mg)   |Not
 4 Ocak  |10:00  |113           |Aç karnına (10 mg insilun yaptım)
 4 Ocak  |14:00  | 99           |Tok karnina
 4 Ocak  |22:40  |166           |
+5 Ocak  |10:00  | 86           |(10 yaptim)
 """]]
