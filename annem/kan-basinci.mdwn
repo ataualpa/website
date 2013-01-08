@@ -14,4 +14,5 @@ Tarih   |Saat   |Systolic |Diastolic |Nabız
 6 Ocak  |16:53  |103      |55        |63
 7 Ocak  |11:28  |109      |72        |64
 7 Ocak  |11:28  | 93      |48        |62
+8 Ocak  |10:05  |117      |76        |72
 """]]
