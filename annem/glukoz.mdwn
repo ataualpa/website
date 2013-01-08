@@ -12,4 +12,5 @@ Tarih   |Saat   |Glukoz (mg)   |Not
 7 Ocak  |10:40  | 78           |10 rutin
 7 Ocak  |22:00  |186           |tok karnina 2 muz yedi
 8 Ocak  |10:41  |119           |ac karnina
+8 Ocak  |22:34  |103           |yari tok
 """]]
