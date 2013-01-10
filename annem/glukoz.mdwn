@@ -15,4 +15,5 @@ Tarih   |Saat   |Glukoz (mg)   |Not
  8 Ocak  |22:34  |103           |yari tok
  9 Ocak  |10:51  | 89           |ac karnina 20
 10 Ocak  |10:20  | 94           |10
+10 Ocak  |20:08  |159           |tok
 """]]
