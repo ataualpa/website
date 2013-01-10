@@ -2,16 +2,17 @@
 
 [[!table data="""
 Tarih   |Saat   |Glukoz (mg)   |Not
-3 Ocak  |12:35  |128           |Tok
-3 Ocak  |23:00  |157           |Yatmadan önce
-4 Ocak  |10:00  |113           |Aç karnına (10 mg insilun yaptım)
-4 Ocak  |14:00  | 99           |Tok karnina
-4 Ocak  |22:40  |166           |
-5 Ocak  |10:00  | 86           |10 yaptim
-6 Ocak  |10:20  |128           |20 rutin
-7 Ocak  |10:40  | 78           |10 rutin
-7 Ocak  |22:00  |186           |tok karnina 2 muz yedi
-8 Ocak  |10:41  |119           |ac karnina
-8 Ocak  |22:34  |103           |yari tok
-9 Ocak  |10:51  | 89           |ac karnina 20
+ 3 Ocak  |12:35  |128           |Tok
+ 3 Ocak  |23:00  |157           |Yatmadan önce
+ 4 Ocak  |10:00  |113           |Aç karnına (10 mg insilun yaptım)
+ 4 Ocak  |14:00  | 99           |Tok karnina
+ 4 Ocak  |22:40  |166           |
+ 5 Ocak  |10:00  | 86           |10 yaptim
+ 6 Ocak  |10:20  |128           |20 rutin
+ 7 Ocak  |10:40  | 78           |10 rutin
+ 7 Ocak  |22:00  |186           |tok karnina 2 muz yedi
+ 8 Ocak  |10:41  |119           |ac karnina
+ 8 Ocak  |22:34  |103           |yari tok
+ 9 Ocak  |10:51  | 89           |ac karnina 20
+10 Ocak  |10:20  | 94           |10
 """]]
