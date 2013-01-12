@@ -16,4 +16,7 @@ Tarih   |Saat   |Glukoz (mg)   |Not
  9 Ocak  |10:51  | 89           |ac karnina 20
 10 Ocak  |10:20  | 94           |10
 10 Ocak  |20:08  |159           |tok
+11 Ocak  | 0:50  |147           |tok (yatmadan once)
+11 Ocak  |11:50  |175           |tok (kahvaltidan az sonra)
+12 Ocak  |13:30  | 87           |tok
 """]]
