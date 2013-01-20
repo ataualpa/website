@@ -19,4 +19,14 @@ Tarih   |Saat   |Glukoz (mg)   |Not
 11 Ocak  | 0:50  |147           |tok (yatmadan once)
 11 Ocak  |11:50  |175           |tok (kahvaltidan az sonra)
 12 Ocak  |13:30  | 87           |tok
+13 Ocak  |11:18  |105           |
+14 Ocak  |20:21  |164           |
+15 Ocak  |20:20  |124           |
+16 Ocak  |12:52  |215           |yapmayi unuttum tok
+16 Ocak  |23:24  |132           |
+17 Ocak  |13:39  | 76           |
+18 Ocak  |17:40  | 95           |
+19 Ocak  |10:39  | 86           |
+20 Ocak  | 1:51  | 65           |
+20 Ocak  |23:17  |100           |5 
 """]]
