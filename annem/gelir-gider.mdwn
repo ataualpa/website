@@ -9,10 +9,12 @@ Tarih   |Cekilen |Harcanan      |Not
 4 Ocak  |100     |120           |Tansiyon aleti p2
 11 Ocak |400     |?             |Elektrik, dogalgaz ve telefon faturasi yatirdim
 11 Ocak |400     |230           |Medikal malzeme
+19 Ocak |100     |?             |Hastane oncesi lazim olur diye
+29 Ocak |300     |250           |Elektrik ve dogalgaz
 """]]
 
 [[!table header="no" data="""
-Cekilen: |850
-Harcanan:|455
-Acik:    |395
+Cekilen: |2050
+Harcanan:|935
+Acik:    |1115
 """]]
