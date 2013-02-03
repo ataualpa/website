@@ -11,6 +11,7 @@ Tarih   |Cekilen |Harcanan      |Not
 11 Ocak |400     |230           |Medikal malzeme
 19 Ocak |100     |?             |Hastane oncesi lazim olur diye
 29 Ocak |300     |250           |Elektrik ve dogalgaz
+31 Ocak |400     |400           |Selman 10 seans ucreti
 """]]
 
 [[!table header="no" data="""
