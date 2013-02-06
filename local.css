@@ -107,3 +107,6 @@ h2 {
 h3 {
   font-size: 120%;
 }
+div.main {
+  padding-top: 20px;
+}
