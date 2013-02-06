@@ -34,6 +34,11 @@
 </div>
 </TMPL_IF>
 <div class="main">
+<span class="parentlinks">
+<TMPL_LOOP PARENTLINKS>
+<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
+</TMPL_LOOP>
+</span>
 <TMPL_VAR CONTENT>
 <div id="footer">
   <div class="licence">
