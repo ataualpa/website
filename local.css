@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 body {
   color: #333;
+  font-size: 110%;
 }
 #header {
   font-family: 'Strait', sans-serif;
@@ -85,7 +86,7 @@ div.sol {
   padding: 20px 0 20px 0;
 }
 div.sol h1 {
-  font-size: 160%;
+  font-size: 180%;
   font-family: 'Share Tech Mono', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -96,4 +97,13 @@ div.sol ul {
 }
 div.main {
   margin-left: 240px;
+}
+h1 {
+  font-size: 130%;
+}
+h2 {
+  font-size: 120%;
+}
+h3 {
+  font-size: 110%;
 }
