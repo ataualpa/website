@@ -28,14 +28,11 @@
 </head>
 
 <body>
+<TMPL_IF SIDEBAR>
 <div class="sol">
-<h1>Onur Aslan</h1>
-<ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Blog</a></li>
-  <li><a href="#">Contact</a></li>
-</ul>
+<TMPL_VAR SIDEBAR>
 </div>
+</TMPL_IF>
 <div class="main">
 <TMPL_VAR CONTENT>
 <div id="footer">
