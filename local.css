@@ -98,6 +98,7 @@ div.sol ul {
 }
 div.main {
   margin-left: 240px;
+  margin-right: 20px;
 }
 h1 {
   font-size: 160%;
@@ -117,4 +118,13 @@ h1.pagetitle {
 }
 div.parentlinks {
   margin-bottom: 20px;
+}
+div.feedlink {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+div.inlineheader {
+  font-size: 150%;
+  margin-bottom: 10px;
 }
