@@ -1,3 +1,4 @@
 [[!meta title="Hello, world"]]
+[[!tag hello]]
 
 This is my first blog post in ikiwiki. I hope it goes well.
