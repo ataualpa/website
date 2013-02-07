@@ -1,0 +1,6 @@
+This is a TODO list for this blog.
+
+* Pages need title.
+* Need a template for inline directive.
+* Left column looks empty.
+* Parentlinks doesn't include current page link.
