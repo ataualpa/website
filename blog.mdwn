@@ -1,2 +1,2 @@
 [[!meta title="Blog"]]
-[[!inline pages="blog/*]]
+[[!inline pages="blog/*"]]
