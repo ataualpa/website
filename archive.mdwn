@@ -1,2 +1,2 @@
 [[!meta title="Archive"]]
-[[!inline pages="* and !*/css* and !*/ikiwiki*" archive="yes"]]
+[[!inline pages="* and !*css/* and !*ikiwiki/* and !*smiles/*" archive="yes"]]
