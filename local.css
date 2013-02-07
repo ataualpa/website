@@ -110,3 +110,7 @@ h3 {
 div.main {
   padding-top: 20px;
 }
+h1.pagetitle {
+  margin: 0;
+  padding: 0;
+}
