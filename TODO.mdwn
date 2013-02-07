@@ -1,6 +1,6 @@
 This is a TODO list for this blog.
 
-* Pages need title.
-* Need a template for inline directive.
+* Website is empty!
+* Template looks like a wot. I don't know its a good thing.
 * Left column looks empty.
 * Parentlinks doesn't include current page link.
