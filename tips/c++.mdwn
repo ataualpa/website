@@ -1,0 +1,21 @@
+[[!meta title="C++ tips"]]
+
+# Makefile
+
+    CC=g++
+    CFLAGS=-Wall -Werror -O2
+    LDFLAGS=-lcurl
+    SOURCES=$(wildcard *.cc)
+    OBJECTS=$(SOURCES:.cc=.o)
+    EXECUTABLE=xvideos-proxy
+
+    all: $(SOURCES) $(EXECUTABLE)
+
+    clean:
+        rm -f $(OBJECTS) $(EXECUTABLE)
+        
+    $(EXECUTABLE): $(OBJECTS) 
+        $(CC) $(CFLAGS) $(LDFLAGS) $(OBJECTS) -o $@
+
+    .cc.o:
+        $(CC) -c $(CFLAGS) $< -o $@
