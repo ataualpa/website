@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Average+Sans|Strait);
-@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 body {
   color: #000;
   font-family: sans-serif;
   font-size: 13px;
 }
 #header {
-  font-family: 'Strait', sans-serif;
   border: 1px solid #ccc;
   border-top: none;
   -webkit-border-bottom-right-radius: 5px;
@@ -88,9 +86,11 @@ div.sol {
   text-align: center;
   padding: 20px 0 20px 0;
 }
-div.sol h1 {
+div.pagetitle {
+  margin: 0;
+  padding: 0;
   font-size: 180%;
-  font-family: 'Share Tech Mono', sans-serif;
+  font-family: 'Average Sans', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -113,10 +113,6 @@ h3 {
 }
 div.main {
   padding-top: 20px;
-}
-h1.pagetitle {
-  margin: 0;
-  padding: 0;
 }
 div.parentlinks {
   margin-bottom: 20px;
