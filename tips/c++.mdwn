@@ -4,10 +4,10 @@
 
     CC=g++
     CFLAGS=-Wall -Werror -O2
-    LDFLAGS=-lcurl
+    LDFLAGS=-lsomething
     SOURCES=$(wildcard *.cc)
     OBJECTS=$(SOURCES:.cc=.o)
-    EXECUTABLE=xvideos-proxy
+    EXECUTABLE=myprogram
 
     all: $(SOURCES) $(EXECUTABLE)
 
