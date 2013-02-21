@@ -1,20 +1,13 @@
-<h3>Contact</h3>
-<ul>
- <li>E-Mail: <a href="mailto:onur@onur.im">onur@onur.im</a></li>
- <li>IRC: I am using <em>onur</em> nickname at irc.freenode.net and irc.debian.org</li>
-</ul>
-<h3>GnuPG</h3>
-<ul>
- <li>My public key: <a href="public.key">0xEB16673C</a></li>
-</ul>
-<h3>my-links</h3>
-<ul>
- <li><a href="http://domus.onur.im/code/">My code repository</a></li>
- <li><a href="/blog/">My blog</a></li>
- <li><a href="http://djangotr.blogspot.com/">Unofficial Turkish translate of The Django Book</a></li>
-</ul>
-<h3>Bookmarks</h3>
-<ul>
- <li><a href="http://www.debian.org/">Debian The Universal Operating System</a></li>
- <li><a href="http://www.vim.org/">vim online</a></li>
-</ul>
+### Contact
+
+* E-Mail: onur@onur.im
+* IRC: I am using *onur* nickname in irc.freenode.net and irc.debian.org
+
+### Public key
+
+* <a href="public.key">0xEB16673C</a>
+
+### Links
+
+* [My code repository](http://domus.onur.im/code/)
+* [[My blog|blog]]
