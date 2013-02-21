@@ -1,6 +1,6 @@
 ### Contact
 
-* E-Mail: onur@onur.im
+* E-Mail: <onur@onur.im>
 * IRC: I am using *onur* nickname in irc.freenode.net and irc.debian.org
 
 ### Public key
