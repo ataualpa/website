@@ -1,5 +1,5 @@
 /* Google Average Sans font */
-@import url(http://fonts.googleapis.com/css?family=Average+Sans|Strait);
+@import url(http://fonts.googleapis.com/css?family=Average+Sans|Amaranth);
 
 /* YUI cssreset, cssbase, cssfonts, cssgrinds */
 /* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
@@ -114,7 +114,10 @@ div.pagetitle {
   font-size: 180%;
   font-family: 'Average Sans', sans-serif;
   font-weight: normal;
-  /*text-transform: uppercase;*/
+}
+div.sol div.pagetitle {
+  font-family: 'Amaranth', sans-serif;
+  text-transform: uppercase;
 }
 div.sol ul {
   text-align: left;
