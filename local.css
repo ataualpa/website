@@ -99,6 +99,14 @@ div.sol {
   border-right: 2px #ccc;
   text-align: center;
   padding: 20px 0 20px 0;
+  background: #f2f5f6; /* Old browsers */
+  background: -moz-linear-gradient(left, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2f5f6), color-stop(37%,#e3eaed), color-stop(100%,#c8d7dc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* IE10+ */
+  background: linear-gradient(to right, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=1 ); /* IE6-9 */
 }
 div.pagetitle {
   margin: 0;
@@ -113,8 +121,7 @@ div.sol ul {
   margin-left: 50px;
 }
 div.main {
-  /*margin-left: 240px;*/
-  margin-left: 20px;
+  margin-left: 240px;
   margin-right: 20px;
 }
 h1 {
