@@ -1,0 +1,5 @@
+# apt do not install recommends
+
+/etc/apt/apt.conf.d/60user
+    
+    APT::Install-Recommends "false";
