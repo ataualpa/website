@@ -12,6 +12,9 @@ Tarih   |Cekilen |Harcanan      |Not
 19 Ocak |100     |?             |Hastane oncesi lazim olur diye
 29 Ocak |300     |250           |Elektrik ve dogalgaz
 31 Ocak |400     |400           |Selman 10 seans ucreti
+10 Şubat|800     |800           |Selman 10 seans ucreti
+10 Şubat|100     |100           |Yemek-bez falan filan
+8 Mart  |500     |500           |2 aylik telefon internet + elektrik + 2 aylik su
 """]]
 
 [[!table header="no" data="""
