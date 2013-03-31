@@ -1,2 +1,2 @@
 
-[[!inline pages="onur/*"]]
+[[!inline pages="onur/*" archive="yes"]]
