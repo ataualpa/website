@@ -1,4 +1,0 @@
-<div class="pagetitle">Onur Aslan</div>
-* [[Home|index]]
-* [[Blog|blog]]
-* [[Archive|archive]]
