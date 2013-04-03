@@ -44,7 +44,7 @@ sayılar şu şekilde olur: *F, 8, Fo, FF, F8, 8o, 8F, 88, Foo, FoF...* 9
 sayısı kaynak dilimizde 9. sırada yer almaktaydı. Demekki 9 sayısının hedef
 dilimizde ki karşılı, hedef dilimizde 9. sıarada yer alan *Foo*.
 
-<a href="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s1600-h/perl.jpg"><img id="BLOGGER_PHOTO_ID_5220543132811537410" src="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s200/perl.jpg" border="0" alt="" /></a>
+<a href="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s1600-h/perl.jpg"><img class="left" src="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s200/perl.jpg" border="0" alt="" /></a>
 
 *Peki bunu programlama ile nasıl yapacağız?*
 
