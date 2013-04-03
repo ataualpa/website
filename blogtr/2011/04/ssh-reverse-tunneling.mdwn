@@ -10,27 +10,27 @@ kullanılabilir hale getirebilir.
 
 Bu tür bir tünel oluşturabilmek için yapmanız gerekenler şunlardır:
  
-1.Öncelikle arkadaşınızın sizin makinenize bağlanmasını sağlamalısınız.
-  Bunun için de sizin SSH sunucunuzun dışarıdan ulaşılabilir olması
-  gerekmekte. <code>adduser</code> ile makinanızda arkadaşınıza bir
-  kullanıcı oluşturun.
+1. Öncelikle arkadaşınızın sizin makinenize bağlanmasını sağlamalısınız.
+Bunun için de sizin SSH sunucunuzun dışarıdan ulaşılabilir olması
+gerekmekte. <code>adduser</code> ile makinanızda arkadaşınıza bir
+kullanıcı oluşturun.
  
-2.Ardından arkadaşınızın, sizin makinanıza şu komutla giriş yapmasını
-  sağlayın:
+2. Ardından arkadaşınızın, sizin makinanıza şu komutla giriş yapmasını
+sağlayın:
     ssh -R 14443:localhost:22 kullaniciadi@ip-adresiniz
-  Arkadaşınız giriş yaptığında, sizin makinanızda açılacak olan 14443
-  numaralı port, arkadaşınızın makinasının 22 numaralı portuna
-  yönlendirilecektir.
-  22 numaralı port SSH portudur, isterseniz farklı bir portu da
-  yönlendirebilirsiniz.
-  14443 yerine herhangi bir port numarası tercih edebilirsiniz, fakat
-  unutmayın ki 1024 den küçük portlar için root yetkisi gerekmektedir.
+Arkadaşınız giriş yaptığında, sizin makinanızda açılacak olan 14443
+numaralı port, arkadaşınızın makinasının 22 numaralı portuna
+yönlendirilecektir.
+22 numaralı port SSH portudur, isterseniz farklı bir portu da
+yönlendirebilirsiniz.
+14443 yerine herhangi bir port numarası tercih edebilirsiniz, fakat
+unutmayın ki 1024 den küçük portlar için root yetkisi gerekmektedir.
  
 3.Arkadaşınız sizin makinanıza başarılı bir şekilde giriş yaptıktan
-  sonra, yönlendirmiş olduğu SSH portunu kullanmak ve arkadaşınızın
-  makinasına giriş yapmak için şu komutu kullanın:
-  <pre lang="sh">ssh arkadasinizinkullaniciadi@localhost -P 14443</pre>
-  Başarılı bir şekilde giriş yapın.
+sonra, yönlendirmiş olduğu SSH portunu kullanmak ve arkadaşınızın
+makinasına giriş yapmak için şu komutu kullanın:
+<pre lang="sh">ssh arkadasinizinkullaniciadi@localhost -P 14443</pre>
+Başarılı bir şekilde giriş yapın.
  
 Bu özellik sayesinde NAT arkasında olan tüm makinelere
 bağlanabilirsiniz. Özellikle port yönlendirmesi yapamayacak olan makinelere
