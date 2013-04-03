@@ -32,5 +32,4 @@ istediğim gibi kullanabilir, ne de yaptığım paketi sizle paylaşabilirdim.
 
 Cacademo editlenmiş sade matrix efekli uygulamasından bir görüntü:
 
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s1600-h/caca.png"><img style="cursor:pointer; cursor:hand;"
-src="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s320/caca.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5106351888488679810" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s1600-h/caca.png"><img style="cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s320/caca.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5106351888488679810" /></a>
