@@ -1,4 +1,5 @@
 [[!meta title="Debian'da kernel derleme"]]
+[[!tag debian]]
 
 Mevcut kernelinizin yetersiz olduğunu düşünüyorsanız ya da kernel derlemek
 istiyorsanız bu döküman işinize yarayabilir. Öncelikle sisteme gerekli
