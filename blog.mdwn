@@ -1,4 +1,4 @@
 [[!meta title="Blog"]]
-[[!inline pages="blog/2*"]]
+[[!inline pages="blog/2013/*"]]
 
 Check [[archive]] page for all blog entries.
