@@ -1,0 +1,37 @@
+[[!meta title="Linux NAT (IP Masquerading)"]]
+
+Yeni makinamın gelmesi ile, eskisini home server yaptım. Ve gerekli NAT
+ayarları ile eski makinayı aynı zamanda router olarak kullanıyorum.
+Linux'te ip yönlendirilmesinin yapılabilmesi için bazı ayarlar ve iptables
+e bazı kurallar eklenmeli. Bu yazıda bu ayarları ele alacağım.
+
+Öncelikle NAT yapabilmeniz için birden fazla network aygıtınız olmalı. Ben
+adsl modemi bridge modda kullanıyorum ve pppoe ile bir ppp0 aygıtım var. Bu
+yazıda ppp0'ın eth0'a olan route işlemini anlatıyorum. Kullandığım dağıtım
+tabiki Debian ve yazı Debian'a göre hazırlanmıştır.
+
+Öncelikle Debian'ın */etc/sysctl.conf* dosyasını açıyoruz ve
+
+    net.ipv4.conf.default.forwarding=1
+
+olan satırın başındaki comment karakterini (#) kaldırıyoruz. Eğer ipv6
+kullanıyorsanız ilgili satırınkini kaldırınız.
+
+Makinayı şimdi yeniden başlatmaya gerek kalmaması için bir kerelik:
+
+    # echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+
+diyoruz. Bu işlemi makina sysctl.conf tan okuyup makina açıldığında
+otomatik yapacak. Yine ipv6 kullanıyorsanız ipv6 klasöründeki ip_forward'a
+yazınız.
+
+Şimdi sıra *iptables*'e geldi. Sırasıyla aşağıdaki komutları vererek
+iptables e kurallarımızı ekliyoruz.
+
+    # iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE
+    # iptables -A FORWARD -i ppp0 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+    # iptables -A FORWARD -i eth0 -o ppp0 -j ACCEPT
+
+Tüm işlemlerimiz tamamlandı. Artık ppp0 aygıtı eth0 dan gelen iplere
+forward edilecek. Bundan sonraki yazımda iptables'e başlangıçta
+ayarlarımızı nasıl yükletiriz onu anlatacağım.
