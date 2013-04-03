@@ -1,0 +1,38 @@
+[[!meta title="Özgür yazılım farkı"]]
+
+Kullandığım Debian işletim sisteminde cacademo isimli programın Matrix
+efekti göze çok çekici geliyor. Özelikle büyük bir ekrana sahipseniz ve
+uzaktan bakıyorsanız hem ekran koruyucusu olaran hem de görsellik açısından
+mükemmel. Fakat cacademo uygulaması 4 ayrı efek sergilemekte. Bense
+kullandığım uygulamanın saece Matrix efeğini istiyordum. İşte burada
+devreye *Debian* ve *Özgür Yazılım* giriyor. Hemen `apt-get source libcaca`
+(cacademo caca-utils paketi icinde, o da libcaca0 içinde yer alıyor) ile
+ilgili yazılımın kaynak kodlarını indirdim. O kadar C kastık bir işe
+yarasın yazılımı açtım. C kasma boşa gitmemiş karışık kodlar bile yabancı
+gelmiyor insana bir seviyeden sonra. Yazılımda ilgili yerleri kendi isteğim
+doğrultusunda değiştim. Ve iş tekrar paketlemeye geldi. Debian'da paket
+oluşurken önce derlenir ve sonra make install aşamasını dpkg otomatikmen
+paketi oluşturarak yapar. Fakat *nix bir sistemde yazılımı derleyebilmeniz
+için, yazılıma bağımlı kaynak kodlarına da ihtiyacınız var. Bunları
+yüklemek Debian gibi gelişmiş paket yönetimine sahip datığımlarda çok
+kolay. Debian'da sadece `apt-get build-dep libcaca` diyoruz ve libcaca nın
+derlenmesi için gerekli tüm paketler kuruluyor. Artık paketimizi
+oluşturabiliriz.
+
+Paketimizi oluştururken debian klasörü altında gerekli bilgileri ve
+changelog dosyasına neleri değiştirdiğimizi yazıyoruz ve `dpkg-buildpackage
+-rfakeroot` diyerek paketimizi oluşturuyoruz.
+
+Burada anlatmak istediğim olay özgür yazılım ın programcılar için ne kadar
+esnek ve geliştirilebilir olduğu. İnsanlar sizin yaptığı programları alıp,
+istedikleri gibi geliştirerek kendi amaçları için kullanabilirler. Buda
+insanlık nanıma daha elverişli bir katkı sağlayacaktır. Bugün caca özgür
+bir yazılım olmasa idi, ne istediğim matrix efeğini bilgisayarımda
+istediğim gibi kullanabilir, ne de yaptığım paketi sizle paylaşabilirdim.
+
+Cacademo editlenmiş sade matrix efekli uygulamasından bir görüntü: <a
+onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"
+href="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s1600-h/caca.png"><img
+style="cursor:pointer; cursor:hand;"
+src="http://3.bp.blogspot.com/_gkVJFX_0jcM/Rt1n_OuDSYI/AAAAAAAAABc/IY8mJUb-fKI/s320/caca.png"
+border="0" alt="" id="BLOGGER_PHOTO_ID_5106351888488679810" /></a>
