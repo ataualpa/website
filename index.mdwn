@@ -9,5 +9,6 @@
 
 ### Links
 
-* [My code repository](http://domus.onur.im/code/)
-* [[My blog|blog]]
+* [Code repository](http://domus.onur.im/code/)
+* [[Blog]]
+* [[Blog (Turkish)|blogtr]]
