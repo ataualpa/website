@@ -82,6 +82,9 @@ a:hover {
   padding-top: 10px;
   color: #999;
 }
+div.inlinefooter {
+  clear: both;
+}
 #footer div.meta, div.inlinefooter, #footer div.meta span {
   color: #999;
 }
