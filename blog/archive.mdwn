@@ -1,2 +1,2 @@
-[[!meta title="Web Güncem Arşiv"]]
-[[!inline pages="blogtr/20*" archive="yes"]]
+[[!meta title="Blog Archive"]]
+[[!inline pages="blog/2*" archive="yes"]]
