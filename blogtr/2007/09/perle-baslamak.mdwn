@@ -1,0 +1,13 @@
+[[!meta title="Perl'e Başlamak"]]
+
+Blogumda Perl ile ilgili hiç bir yazı bulunmamasından yakınırken Perl'e
+başlamak isteyenler için bir kitap önerisiyle ilk Perl yazımı atayım.
+Perl'e başlamak istiyorsanız sizin için hazırlanmış bir Perl kitabı var.
+*Llama Book*. Yani tam adını yazarsak <a
+href="http://www.oreilly.com/catalog/lperl3/" target="_blank">Learning
+Perl</a>. Kitap Perl'in temelini en iyi ve anlaşılır şekilde anlatıyor.
+Eğer bu kitabı okursanız, Perl'i öğrenebilir ve Bilgisayar Programlama'dan
+zevk alabilirsiniz. Yeni, `amatör` ve profesyonel programcılara şiddetle
+tavsiye ederim. Ki Perl'in babası <a
+href="http://en.wikipedia.org/wiki/Larry_Wall" target="_blank">Larry
+Wall</a>'da ediyor.
