@@ -1,0 +1,4 @@
+[[!meta title="pages tagged hello"]]
+
+[[!inline pages="tagged(hello)" actions="no" archive="yes"
+feedshow=10]]
