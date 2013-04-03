@@ -17,7 +17,9 @@ kullanıcı oluşturun.
  
 2. Ardından arkadaşınızın, sizin makinanıza şu komutla giriş yapmasını
 sağlayın:
+
     ssh -R 14443:localhost:22 kullaniciadi@ip-adresiniz
+
 Arkadaşınız giriş yaptığında, sizin makinanızda açılacak olan 14443
 numaralı port, arkadaşınızın makinasının 22 numaralı portuna
 yönlendirilecektir.
@@ -26,10 +28,12 @@ yönlendirebilirsiniz.
 14443 yerine herhangi bir port numarası tercih edebilirsiniz, fakat
 unutmayın ki 1024 den küçük portlar için root yetkisi gerekmektedir.
  
-3.Arkadaşınız sizin makinanıza başarılı bir şekilde giriş yaptıktan
+3. Arkadaşınız sizin makinanıza başarılı bir şekilde giriş yaptıktan
 sonra, yönlendirmiş olduğu SSH portunu kullanmak ve arkadaşınızın
 makinasına giriş yapmak için şu komutu kullanın:
-<pre lang="sh">ssh arkadasinizinkullaniciadi@localhost -P 14443</pre>
+
+ssh arkadasinizinkullaniciadi@localhost -P 14443
+
 Başarılı bir şekilde giriş yapın.
  
 Bu özellik sayesinde NAT arkasında olan tüm makinelere
