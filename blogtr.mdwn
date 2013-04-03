@@ -1,2 +1,4 @@
 [[!meta title="Web Güncem"]]
 [[!inline pages="blogtr/20*"]]
+
+Tüm girdiler için [[arşiv|archive]] sayfasına bakınız.
