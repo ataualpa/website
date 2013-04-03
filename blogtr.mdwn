@@ -1,2 +1,2 @@
 [[!meta title="Web Güncem"]]
-[[!inline pages="blogtr/*"]]
+[[!inline pages="blogtr/20*"]]
