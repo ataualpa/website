@@ -19,7 +19,7 @@ kullanıyorsanız ilgili satırınkini kaldırınız.
 
 Makinayı şimdi yeniden başlatmaya gerek kalmaması için bir kerelik:
 
-    # echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+    # echo 1 > /proc/sys/net/ipv4/ip_forward
 
 diyoruz. Bu işlemi makina sysctl.conf tan okuyup makina açıldığında
 otomatik yapacak. Yine ipv6 kullanıyorsanız ipv6 klasöründeki ip_forward'a
