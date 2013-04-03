@@ -1,2 +1,4 @@
 [[!meta title="Eski blog girdileri"]]
 [[!inline pages="blog/2007/* or blog/2008/* or blog/2010/* or blog/2011/*"]]
+
+Check [[archive]] page for all blog entries.
