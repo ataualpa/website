@@ -11,9 +11,9 @@ kullanılabilir hale getirebilir.
 Bu tür bir tünel oluşturabilmek için yapmanız gerekenler şunlardır:
  
 1. Öncelikle arkadaşınızın sizin makinenize bağlanmasını sağlamalısınız.
-Bunun için de sizin SSH sunucunuzun dışarıdan ulaşılabilir olması
-gerekmekte. <code>adduser</code> ile makinanızda arkadaşınıza bir
-kullanıcı oluşturun.
+   Bunun için de sizin SSH sunucunuzun dışarıdan ulaşılabilir olması
+   gerekmekte. <code>adduser</code> ile makinanızda arkadaşınıza bir
+   kullanıcı oluşturun.
  
 2. Ardından arkadaşınızın, sizin makinanıza şu komutla giriş yapmasını
    sağlayın:
@@ -29,11 +29,13 @@ kullanıcı oluşturun.
    unutmayın ki 1024 den küçük portlar için root yetkisi gerekmektedir.
  
 3. Arkadaşınız sizin makinanıza başarılı bir şekilde giriş yaptıktan
-sonra, yönlendirmiş olduğu SSH portunu kullanmak ve arkadaşınızın
-makinasına giriş yapmak için şu komutu kullanın:
-<pre><code>ssh arkadasinizinkullaniciadi@localhost -P 14443</code></pre>
-Başarılı bir şekilde giriş yapın.
- 
+   sonra, yönlendirmiş olduğu SSH portunu kullanmak ve arkadaşınızın
+   makinasına giriş yapmak için şu komutu kullanın:
+
+       ssh arkadasinizinkullaniciadi@localhost -P 14443
+
+   Başarılı bir şekilde giriş yapın.
+
 Bu özellik sayesinde NAT arkasında olan tüm makinelere
 bağlanabilirsiniz. Özellikle port yönlendirmesi yapamayacak olan makinelere
 bağlanmak için çok yararlı bir özellik ve GNU/Linux'de herşeyin mümkün
