@@ -1,0 +1,32 @@
+[[!meta title="GNU/Linux altında İşbank CepAnatar"]]
+
+Android telefonumun CepAnahtar yazılımını desteklememesi üzerine
+bir süredir İşbank internet bankacılığını kullanamıyordum. Ben de çözüm
+aramaya başladım ve sonunda
+<a href="http://www.microemu.org/">MicroEmulator</a> isimli Java SE
+içerisinde Java ME emulatorüne rastladım.
+
+PC'nizde CepAnatar kullanmanız için yapmanız gerekenler:
+
+1. Öncelikle makinenizde JRE bulunması gerekli. Debian altında isterseniz
+   <code>openjdk-6-jre</code> veya <code>sun-java6-jre</code> paketlerini
+   kurarak JRE'ye sahip olabilirsiniz.
+
+2. Ardından MicroEmulator'un son sürümünü
+   <a href="http://code.google.com/p/microemu/downloads/list">download</a>
+   sayfasından indirin.
+
+3. İşbank CepAnahtar yazılımını İşbank'ın sunucusundan indirin:
+   <a href="http://mobil.isbank.com.tr/dist40s/CepAnahtar.jar">http://mobil.isbank.com.tr/dist40s/CepAnahtar.jar</a>
+
+4. İndirdiğiniz MicroEmulator'ün zip arşivini bir klasöre çıkartın ve bu
+   klasöre girip:
+       java -jar microemulator.jar</pre>
+   komutu ile programı başlatın.
+
+5. Menüden <code>File =&gt; Open MIDlet File...</code> yardımı ile
+   CepAnahtar programını başlatın.
+
+6. İşbank'ın <a href="https://www.isbank.com.tr/Internet/MainPageEnter.aspx?src=CepAnahtarAktivasyon&LangCode=tr-TR">Cep Anahtar Aktivasyonu</a>
+   sayfasını kullanarak CepAnahtar'ı aktifleştirin ve kullanmaya
+   başlayın.
