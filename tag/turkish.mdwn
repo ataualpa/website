@@ -1,0 +1,4 @@
+[[!meta title="Türkçe yazılar"]]
+
+[[!inline pages="tagged(turkish)" actions="no" archive="yes"
+feedshow=10]]
