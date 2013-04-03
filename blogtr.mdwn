@@ -1,2 +1,4 @@
 [[!meta title="Web Güncem"]]
 [[!inline pages="blogtr/*"]]
+
+[[!toc]]
