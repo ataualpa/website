@@ -153,6 +153,9 @@ div.inlineheader {
   font-size: 200%;
   margin-bottom: 10px;
 }
+div.inlineheader a {
+  text-decoration: none;
+}
 pre {
   background-color: #eee;
   border: 1px solid #ccc;
