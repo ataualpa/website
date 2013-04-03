@@ -1,0 +1,60 @@
+[[!meta title="Alien Numbers"]]
+
+<a href="http://2.bp.blogspot.com/_gkVJFX_0jcM/SHMRr9Q5d2I/AAAAAAAAANg/EFH7hJJGL4g/s1600-h/codejam-v1.png"><img class="left" src="http://2.bp.blogspot.com/_gkVJFX_0jcM/SHMRr9Q5d2I/AAAAAAAAANg/EFH7hJJGL4g/s320/codejam-v1.png" alt="" /></a>
+
+<a href="http://www.google.com/">Google</a> <a
+href="http://code.google.com/codejam/">code.jam</a>'i keşfetmem üzerine
+hemen kolları sıvadım. Code Jam, Google tarafından düzenlenen bir
+programlama yarışması. Verilen problemleri istediğiniz bir programlama dili
+kullanarak çözmeye çalışıyorsunuz. Yarışmanın ilk ayağı 16 Temmuz Çarşamba
+günü başlayacak. Üyelik ücretsiz. Profesyonelinden öğrencisine herkes
+yarışmaya katılabilir. Birinciye $10.000 ödül verilen yarışmada derece
+yapmanın Google'da bir iş bulabilmeye yarayacağını düşünüyorum.
+
+Şuan için code.jam'da örnek problemler mevcut. Bu problemler yarışanların
+code.jam hakkında fikir sahibi olmalarını sağlıyor. Pratikler alanında yer
+alan ilk problem *Alien Numbers*. Diğer problemlere göre kolay olan bu
+probleme bende bir çözüm üretmeyi başarabildim.
+
+*Nedir Bu Uzaylı Sayılar?* Pratiklerde yer alan ilk problem yeni bir sayı
+sistemi yaratmak ile ilgili. Problem sizden verilen karakterlere göre 2
+değişik sayı sistemi yaratmanızı ve bu sistemde geçen bir sayıyı, ikinci
+sayı sisteminde yer alan karşılığını vermenizi istiyor. Diğer problemlere
+göre kolay olan bu problemi <a href="http://www.perl.org/">Perl</a> ile
+yapmayı başardım. Size kısaca algoritmasından bahsedeyim.
+
+Problemde yer alan açıklamaya bakacak olursak şu şekilde. Şuan kullandığımı
+sayı sistemi 0123456789 rakamlarından oluşmakta. Problem bize diyor ki size
+verdiğim karakterlerde bir sayı sistemi yarat ve alien sayısını, kaynak dil
+ile üretilmiş sayı sisteminden, hedef dil ile üretilmiş sayı sistemine
+tercüme et diyor. Problem programın yapmasını istediği 3 veri sunuyor.
+
+<pre>alien_sayisi kaynak_dil hedef_dil</pre>
+
+Problemin sayfasında yer alan
+örneklere bakacak olursak; alien sayısı olarak 9, kaynak dil olarak
+0123456789 ve hedef dil olarak "oF8" karakterleri verilmiş. Öncelikle
+kaynak dili ele alalım. Kaynak dil şuan kullandığımız sayı sistemidir ve
+oluşturulabilecek sayılar şu şekilde olmaktadır: *1, 2, 3, 4, 5, 6, 7, 8,
+9, 10, 11, 12...* Görüdüğünüz gibi 0'ı kullanmadık. Sayma sayıları 1 den
+başlamaktadır. Hedef dilimizde de böyle olmalı. Verilen alien sayısı 9 bu
+sayı sisteminin 9. sayısını oluşturmaktadır. İkinci sayı sistemine bakacak
+olursak bize "oF8" karakterleri verilmiş. Bu karakterler ile oluşturulacak
+sayılar şu şekilde olur: *F, 8, Fo, FF, F8, 8o, 8F, 88, Foo, FoF...* 9
+sayısı kaynak dilimizde 9. sırada yer almaktaydı. Demekki 9 sayısının hedef
+dilimizde ki karşılı, hedef dilimizde 9. sıarada yer alan *Foo*.
+
+<a href="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s1600-h/perl.jpg"><img id="BLOGGER_PHOTO_ID_5220543132811537410" src="http://1.bp.blogspot.com/_gkVJFX_0jcM/SHMYUdXWLAI/AAAAAAAAANo/E5dFPt9TKVs/s200/perl.jpg" border="0" alt="" /></a>
+
+*Peki bunu programlama ile nasıl yapacağız?*
+
+Bu problemi programa dökmek için gerçek hayattaki gibi düşündüm (farklı
+çözümler üretenler de olmuş). Kullandığımız sayı sisteminde yer alan
+sayılar ile sonsuz miktarda sayı üretebiliyoruz. 0 1 2 3 4 5 6 7 8 9 ile
+saydıktan sonra 10 geliyor. Yani son sayıya geldiğimizde, eğer solunda bir
+sayı yoksa soluna bir ilk sayma sayımız ekleniyor ve ilk sayımız başa
+dönüyor. 17 18 19 20 şeklinde saydığımızda ise solda yer alan sayı, sayma
+sayılarımızın son sayısı olmadığından bir arttırılıyor. Yaptığım programın
+aynen bunu yapmasını sağladım. Öncelikle tüm sayıları bir *array*'a bölüp,
+daha sonra 1. sayıdan başlayarak artmasını sağladım. Arttır fonksiyonunu
+inceleyecek olursak
