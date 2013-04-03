@@ -112,7 +112,7 @@ div.sol {
 div.pagetitle {
   margin: 0;
   padding: 0;
-  font-size: 180%;
+  font-size: 250%;
   font-family: 'Average Sans', sans-serif;
   font-weight: normal;
 }
@@ -151,7 +151,7 @@ div.feedlink {
   top: 10px;
 }
 div.inlineheader {
-  font-size: 150%;
+  font-size: 200%;
   margin-bottom: 10px;
 }
 pre {
