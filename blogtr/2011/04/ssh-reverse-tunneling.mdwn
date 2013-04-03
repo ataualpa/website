@@ -17,7 +17,9 @@ kullanıcı oluşturun.
  
 2. Ardından arkadaşınızın, sizin makinanıza şu komutla giriş yapmasını
    sağlayın:
-   <pre><code>ssh -R 14443:localhost:22 kullaniciadi@ip-adresiniz</code></pre>
+
+       ssh -R 14443:localhost:22 kullaniciadi@ip-adresiniz
+
    Arkadaşınız giriş yaptığında, sizin makinanızda açılacak olan 14443
    numaralı port, arkadaşınızın makinasının 22 numaralı portuna
    yönlendirilecektir.
