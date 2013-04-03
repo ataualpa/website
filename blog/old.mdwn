@@ -1,2 +1,2 @@
 [[!meta title="Eski blog girdileri"]]
-[[!inline pages="blog/2007/* and blog/2008/* and blog/2010/* and blog/2011/*"]]
+[[!inline pages="2007/* and 2008/* and 2010/* and 2011/*"]]
