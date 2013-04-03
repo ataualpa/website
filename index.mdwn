@@ -11,4 +11,3 @@
 
 * [Code repository](http://domus.onur.im/code/)
 * [[Blog]]
-* [[Blog (Turkish)|blogtr]]
