@@ -1,0 +1,66 @@
+[[!meta title="Debian'da kernel derleme"]]
+
+Mevcut kernelinizin yetersiz olduğunu düşünüyorsanız ya da kernel derlemek
+istiyorsanız bu döküman işinize yarayabilir. Öncelikle sisteme gerekli
+paketleri kuruyoruz. 
+
+    # apt-get install kernel-package ncurses-dev bzip2 module-init-tools initrd-tools procps
+
+Daha sonra kernel.org dan istediğiniz kerneli indiriyoruz. İndirdiğimiz
+arşiv dosyasını /usr/src dizinine atıyoruz ve /usr/src dizinine gidiyoruz
+(cd /usr/src/). 
+
+    # tar xjf linux-2.6.19.2.tar.bz2
+
+Diyerek arşivi çıkarıyoruz. Ben 2.6.19.2 yi indirip derledim, siz başka
+bişey indirdiyseniz döküman boyunca onu kullanın. Açtığımız klasöre
+giriyoruz. 
+
+    # cd linux-2.6.19.2
+
+Daha sonra modullerin ayarlanması için 2 arabirim kullanabilirsiniz. Biri
+text tabanlı diğeri gui tabanlı. Gui tabanlıyı kullanabilmeniz için
+libqt3-mt-dev paketini kurmanız gerekli. Text tabalıyı kurmak için:
+
+    make menuconfig
+
+Gui tabanlıyı kurmak için: 
+
+    # make xconfig
+
+Diyebilirsiniz. Gelen yerde kernelinize ayar çekebilirsiniz. En aşağıda
+“Load an alternative configuration file” ı seçerek mevcut kernelinizin
+config dosyasını gösterebilirsiniz (/boot/config-2.6.18-3-686 vb.). Bu
+adımıda geçtikten sonra 
+
+    # make-kpkg clean
+    # make-kpkg kernel_image
+
+Diyerek kerneli derlemeye başlayabilirsiniz. Hayli uzun sürecektir. Derleme
+bittiğinde /usr/src dizinine kernelinizin paketi oluşmuş olacaktır. 
+
+    # dpkg -i linux-image-2.6.19.2_2.6.19.2-10.00.Custom_i386.deb
+
+Diyerek paketinizi yükleyebilirsiniz. Kernel gruba da yazılacaktır. Fakat
+kernelinizi boot edebilmeniz için son adım olarak initram oluşturmalısınız.
+Bunuda 
+
+    # cd /boot
+    # mkinitrd -o /boot/initrd.img-2.6.19.2 2.6.19.2
+
+diyerek oluşturabilirsiniz. En son adım olarak favori text editörünüzle
+/boot/grub/menu.lst dosyasını açınız ve oluşturduğunuz initram i ekleyiniz.
+Yani kernelinizin bulunduğu bölüm şöyle olmalı:
+
+    title  Debian GNU/Linux, kernel 2.6.19.2
+    root  (hd0,0)
+    kernel  /boot/vmlinuz-2.6.19.2 root=/dev/hda1 ro
+    initrd  /boot/initrd.img-2.6.19.2
+    savedefault
+
+Artık bilgisayarınızı yeni kernelinizle başlatabilirsiniz. Unutmayın ki
+herhangi bir sorunla karşılaşırsanız eski kerneliniz hala duruyor
+olacaktır. 
+
+    $ uname -a
+    Linux debian 2.6.19.2 #1 SMP Fri Jan 26 07:37:27 EET 2007 i686 GNU/Linux
