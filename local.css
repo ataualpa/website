@@ -156,6 +156,9 @@ div.inlineheader {
 div.inlineheader a {
   text-decoration: none;
 }
+div.inlineheader a:hover {
+  text-decoration: underline;
+}
 pre {
   background-color: #eee;
   border: 1px solid #ccc;
