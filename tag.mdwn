@@ -1,2 +1,2 @@
 [[!meta title="Tags"]]
-[[!inline pages="tag/*" pages="0"]]
+[[!inline pages="tag/*" show="0"]]
