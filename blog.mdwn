@@ -1,2 +1,4 @@
 [[!meta title="Blog"]]
 [[!inline pages="blog/2*"]]
+
+Check [[archive]] page for all blog entries.
