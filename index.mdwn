@@ -9,5 +9,5 @@
 
 ### Links
 
-* [Code repository](http://domus.onur.im/code/)
+* [Code repository](http://git.onur.im/)
 * [[Blog]]
