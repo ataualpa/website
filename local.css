@@ -81,6 +81,7 @@ a:hover {
   margin-top: 20px;
   padding-top: 10px;
   color: #999;
+  clear: both;
 }
 div.inlinefooter {
   clear: both;
