@@ -1,0 +1,4 @@
+[[!meta title="Türkçe Blog"]]
+
+[[!inline pages="tagged(blogtr)" actions="no" archive="yes"
+feedshow=10]]
