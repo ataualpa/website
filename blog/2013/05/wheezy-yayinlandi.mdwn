@@ -1,0 +1,5 @@
+[[!meta title="Debian 7.0 'Wheezy' yayınlandı"]]
+[[!tag debian blogtr turkish]]
+Debian 7.0 'Wheezy' yayınlandı.
+
+Duyurusu [burada](http://www.debian.org/News/2013/20130504.tr).
