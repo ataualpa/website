@@ -3,3 +3,10 @@
 /etc/apt/apt.conf.d/60user
     
     APT::Install-Recommends "false";
+
+
+# sshd as inet
+
+/etc/inetd.conf
+
+    ssh  stream  tcp  nowait  root   /usr/sbin/tcpd /usr/sbin/sshd -i
