@@ -1,8 +1,9 @@
 [[!meta title="Yeni PC"]]
+[[!toc level="2"]]
 
 # İşlemci
 
-* Intel Core i7-3770 @ 3.40GHz
+## Intel Core i7-3770 @ 3.40GHz
     * Artılar:
         * En iyi üçüncü işlemci.
         * En iyi ikinci fiyat/performans Intel işlemci.
@@ -16,7 +17,7 @@
         * [Tom's Hardware Review](http://www.tomshardware.com/reviews/ivy-bridge-benchmark-core-i7-3770k,3181.html)
         * [Intel](http://ark.intel.com/products/65719/)
 
-* Intel Core i5-3570 @ 3.40GHz
+## Intel Core i5-3570 @ 3.40GHz
     * Artılar:
         * En iyi fiyat/performans işlemci.
     * Eksiler:
