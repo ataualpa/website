@@ -25,3 +25,45 @@
 * Fiyat:
     * $195 (427TL) [Vatan](http://www.vatanbilgisayar.com/cpu---islemci/intel-bx80637i53570-core-i5-3570-soket-1155-34ghz-6mb-cache-22nm-islemci/productdetails.aspx?I_ID=61793)
     * $282.49 (629.6TL) [Hepsiburada](http://www.hepsiburada.com/liste/intel-core-i5-3570k-34ghz-6mb-cache-1600mhz-lga1155-ivy-bridge-islemci/productDetails.aspx?productId=bd300906&categoryId=46)
+* Linkler:
+    * [Intel](http://ark.intel.com/products/65702)
+
+
+
+# Anakart
+
+Anakart araştırması yapmam gerekli. Özellikle Linux uyumu ve bütçe anakartları
+bir sorun yaratır mı, bunun hakkında bir bilgim yok.
+
+## Asus P8B75-V
+* Artılar:
+    * En ucuz ATX anakart.
+* Fiyat:
+    * $92 (203TL) [Vatan](http://www.vatanbilgisayar.com/anakart/asus-p8b75-v-p8b75-v-intel-b75-soket-1155-ddr3-2200mhz%28oc%29-sata-30-usb-30-dvi-anakart/productdetails.aspx?I_ID=60307)
+
+
+# RAM
+
+## Kingston 2x4GB
+* Fiyat:
+    * $34x2 (150TL=75TLx2) [Vatan](http://www.vatanbilgisayar.com/ram/kingston-kvr16n11s84g-4gb-ddr3-1600mhz-cl11-tek-modul-pc-ram/productdetails.aspx?I_ID=65727)
+
+
+# Ekran kartı
+Ekran kartı çok dikkat edilmesi gereken bir seçim. Özellikle çok fazla oyun
+oynamadığım ve her yeni gün yeni bir ekran kartının çıkmasıyla çok pahalı bir
+ürün almak çok hatalı bir seçim olabilir.
+
+Ekran kartlarındaki en önemli özellik, bellekte kullanılan bit sayısı. Ucuz bir
+ekran kartıyla, aynı özellikten daha az rame sahip bir ekran kartının bit
+sayısının farkı inanılmaz fiyat aralığına yol açabiliyor ve performansta aynı
+ölçüde değişiklik gösterebiliyor.
+
+## GTX660 Zotac
+* Artıları:
+    * Fiyatı idare eder.
+    * 192 bit
+* Eksileri:
+    * 2 GB bellek
+* Fiyat:
+    * $193 (422TL) [Vatan](http://www.vatanbilgisayar.com/zotac-zt-60901-10m-gtx660-gddr5-2gb-192bit-nvidia-geforce-dx11-ekran-karti/productdetails.aspx?I_ID=62094)
