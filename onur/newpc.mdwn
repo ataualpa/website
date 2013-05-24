@@ -1,5 +1,5 @@
 [[!meta title="Yeni PC"]]
-[[!toc levels="2"]]
+[[!toc levels="3"]]
 
 # Neden
 Yeni bir bilgisayar istememin temel iki nedeni var.
