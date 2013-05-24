@@ -1,9 +1,23 @@
 [[!meta title="Yeni PC"]]
 [[!toc levels="2"]]
 
-# İşlemci
+# Neden
+Yeni bir bilgisayar istememin temel iki nedeni var.
 
-## Intel Core i7-3770 @ 3.40GHz
+1. Rome 2: Total War
+    En çok sevdiğim oyunun ikincisi.
+2. Elektrik
+    Daha önce yaptığım hatalı işlemci seçimi nedeniyle, şuan ki bilgisayarım
+    aşırı elektrik tüketiyor.
+
+Bu nedenler yeni bir PC almak için yeterli mi bundan henüz emin değilim.
+
+
+# Parçalar
+
+## İşlemci
+
+### Intel Core i7-3770 @ 3.40GHz
 * Artılar:
     * En iyi üçüncü işlemci.
     * En iyi ikinci fiyat/performans Intel işlemci.
@@ -17,7 +31,7 @@
     * [Tom's Hardware Review](http://www.tomshardware.com/reviews/ivy-bridge-benchmark-core-i7-3770k,3181.html)
     * [Intel](http://ark.intel.com/products/65719/)
 
-## Intel Core i5-3570 @ 3.40GHz
+### Intel Core i5-3570 @ 3.40GHz
 * Artılar:
     * En iyi fiyat/performans işlemci.
 * Eksiler:
@@ -30,26 +44,26 @@
 
 
 
-# Anakart
+## Anakart
 
 Anakart araştırması yapmam gerekli. Özellikle Linux uyumu ve bütçe anakartları
 bir sorun yaratır mı, bunun hakkında bir bilgim yok.
 
-## Asus P8B75-V
+### Asus P8B75-V
 * Artılar:
     * En ucuz ATX anakart.
 * Fiyat:
     * $92 (203TL) [Vatan](http://www.vatanbilgisayar.com/anakart/asus-p8b75-v-p8b75-v-intel-b75-soket-1155-ddr3-2200mhz%28oc%29-sata-30-usb-30-dvi-anakart/productdetails.aspx?I_ID=60307)
 
 
-# RAM
+## RAM
 
-## Kingston 2x4GB
+### Kingston 2x4GB
 * Fiyat:
     * $34x2 (150TL=75TLx2) [Vatan](http://www.vatanbilgisayar.com/ram/kingston-kvr16n11s84g-4gb-ddr3-1600mhz-cl11-tek-modul-pc-ram/productdetails.aspx?I_ID=65727)
 
 
-# Ekran kartı
+## Ekran kartı
 Ekran kartı çok dikkat edilmesi gereken bir seçim. Özellikle çok fazla oyun
 oynamadığım ve her yeni gün yeni bir ekran kartının çıkmasıyla çok pahalı bir
 ürün almak çok hatalı bir seçim olabilir.
@@ -59,7 +73,7 @@ ekran kartıyla, aynı özellikten daha az rame sahip bir ekran kartının bit
 sayısının farkı inanılmaz fiyat aralığına yol açabiliyor ve performansta aynı
 ölçüde değişiklik gösterebiliyor.
 
-## GTX660 Zotac
+### GTX660 Zotac
 * Artıları:
     * Fiyatı idare eder.
     * 192 bit
