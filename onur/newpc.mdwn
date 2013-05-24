@@ -1,5 +1,5 @@
 [[!meta title="Yeni PC"]]
-[[!toc level="2"]]
+[[!toc levels="2"]]
 
 # İşlemci
 
