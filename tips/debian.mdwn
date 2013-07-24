@@ -15,12 +15,16 @@
 
 # ITP bug template
 
+ITP needs ownership, [more info](http://www.debian.org/devel/wnpp/)
+
+
     To: submit@bugs.debian.org
     Subject: ITP: libcutl -- C++ utility library
     X-Debbugs-CC: debian-devel@lists.debian.org
 
     Package: wnpp
     Severity: wishlist
+    Owner: Onur Aslan <onur@onur.im>
 
     * Package name    : 
       Version         : 
