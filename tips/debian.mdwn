@@ -10,3 +10,24 @@
 /etc/inetd.conf
 
     ssh  stream  tcp  nowait  root   /usr/sbin/tcpd /usr/sbin/sshd -i
+
+
+
+# ITP bug template
+
+    To: submit@bugs.debian.org
+    Subject: ITP: libcutl -- C++ utility library
+    X-Debbugs-CC: debian-devel@lists.debian.org
+
+    Package: wnpp
+    Severity: wishlist
+
+    * Package name    : 
+      Version         : 
+      Upstream Author : 
+    * URL             : 
+    * License         : 
+      Programming Lang: 
+      Description     : 
+
+    Package description
