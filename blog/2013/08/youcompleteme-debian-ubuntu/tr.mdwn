@@ -1,0 +1,76 @@
+[[!meta title="Debian ve Ubuntu için YouCompleteMe"]]
+
+<img src="http://i.imgur.com/0OP4ood.gif" alt="YouCompleteMe" />
+
+[YouCompleteMe](http://valloric.github.io/YouCompleteMe/), vim için bir kod
+tamamlama eklentisidir. Benim de favori eklentilerim arasındadır.
+
+Çoğu kullanıcı bu eklentiyi clang desteğiyle kurmakta sorun yaşıyor. Ayrıca
+bu eklenti sistem kütüphanelerini kullanmak yerine kendi boost kütüphaneleri
+ve llvm başlık dosyalarıyla geliyor. Kolay kurulum ve sistem kütüphaneleri
+kullanımı için bir Debian paketi yapmaya karar verdim. Build sistemi sistem
+kütüphanelerini kullanacak şekilde yamaladım.
+
+Bu paket *neredeyse* lintian clean (yani Debian arşivlerine girebilecek
+seviyede). Tek sorun libclang hiç bir bilinen kütüphane dizininde
+bulunmadığından, linker RPATH kullanıyor. Debian'ın
+[RpathSorunu](http://wiki.debian.org/RpathIssue) olan bir paketi kabul etmesi
+zor. Bu konu için llvm bakıcılarıyla irtibata geçeceğim.
+
+
+**Bu eklenti libclang1-3.3 ve libclang1-3.3-dev paketlerini gerektirmektedir.
+Şu an bu paketler sadece Debian jessie/sid ve Ubuntu saucy de bulunmakta.**
+
+YouCompleteMe'i sistemimiz için inşa etmeye başlayalım.
+
+## Gerekli paketlerin kurulumu
+
+Bu paket aşağıdaki inşa bağımlılıklarını gerektirmektedir:
+
+ * git-buildpackage
+ * pristine-tar
+ * debhelper (>= 9)
+ * dpkg-dev (>= 1.16.1~)
+ * cmake
+ * libpython-dev
+ * libclang-3.3-dev
+ * libboost-python1.53-dev
+ * libboost-system1.53-dev
+ * libboost-filesystem1.53-dev
+ * libboost-regex1.53-dev
+ * libboost-thread1.53-dev
+ * vim-addon-manager
+
+
+Tüm inşa bağımlılıklarını tek bir komutla kurun:
+
+    $ sudo apt-get install debhelper dpkg-dev cmake libpython-dev libclang-3.3-dev libboost-python1.53-dev libboost-system1.53-dev libboost-filesystem1.53-dev libboost-regex1.53-dev libboost-thread1.53-dev
+
+
+## Paket deposunu git-buildpackage ile klonlayın
+
+Paketi <http://anonscm.debian.org/gitweb/?p=users/onur-guest/vim-youcompleteme.git;a=summary>
+adresinde bulabilirsiniz.
+
+git-buildpackage ile depomu klonlayın:
+
+    $ gbp clone git://anonscm.debian.org/users/onur-guest/vim-youcompleteme.git
+
+
+## Paketi inşa edin
+
+Paket dizinine girin ve git-buildpackage komutunu çalıştırın. Bu komut gerekli
+olan orig.tar.gz dosyasını pristine-tar branch'ından oluşturacak ve tüm
+yamaları uygulayacaktır ve paketi inşa edecektir.
+
+    $ cd vim-youcompleteme
+    $ git-buildpackage
+
+## Paketi sisteminize yükleyin ve vam ile etkinleştirin
+
+    $ cd ../
+    $ sudo dpkg -i vim-youcompleteme_20130727+ds1+gitf347885-1_amd64.deb
+    $ vam install youcompleteme
+
+YouCompleteMe hazır. Mutlu kodlamalar :-)
+
