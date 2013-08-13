@@ -1,4 +1,5 @@
 [[!meta title="YouCompleteMe for Debian and Ubuntu"]]
+[[!tag debian]]
 
 <img src="http://i.imgur.com/0OP4ood.gif" alt="YouCompleteMe" />
 

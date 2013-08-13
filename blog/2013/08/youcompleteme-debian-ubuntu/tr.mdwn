@@ -1,4 +1,5 @@
 [[!meta title="Debian ve Ubuntu için YouCompleteMe"]]
+[[!tag debian blogtr turkish]]
 
 <img src="http://i.imgur.com/0OP4ood.gif" alt="YouCompleteMe" />
 
