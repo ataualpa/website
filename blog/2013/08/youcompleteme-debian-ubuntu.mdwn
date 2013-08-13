@@ -1,6 +1,6 @@
 [[!meta title="YouCompleteMe for Debian and Ubuntu"]]
 
-[[!img http://i.imgur.com/0OP4ood.gif]]
+<img src="http://i.imgur.com/0OP4ood.gif" alt="YouCompleteMe" />
 
 [YouCompleteMe](http://valloric.github.io/YouCompleteMe/) is a code completion
 addon for Vim. It's one of my favorite addon for vim.
