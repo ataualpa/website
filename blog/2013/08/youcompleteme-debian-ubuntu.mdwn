@@ -42,7 +42,7 @@ This package needs following build dependencies:
 Install all build dependencies in one command:
 
     $ sudo apt-get install \
-        git-buildpackage pristine-tar \
+        git-buildpackage pristine-tar vim-addon-manager \
         debhelper dpkg-dev cmake libpython-dev \
         libclang-3.3-dev libboost-python1.53-dev libboost-system1.53-dev \
         libboost-filesystem1.53-dev libboost-regex1.53-dev libboost-thread1.53-dev
