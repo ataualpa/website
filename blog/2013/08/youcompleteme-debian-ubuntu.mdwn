@@ -1,0 +1,72 @@
+[[!meta title="YouCompleteMe for Debian and Ubuntu"]]
+
+[[!img http://i.imgur.com/0OP4ood.gif]]
+
+[YouCompleteMe](http://valloric.github.io/YouCompleteMe/) is a code completion
+addon for Vim. It's one of my favorite addon for vim.
+
+Many people have difficulties to install this addon with clang support. Also
+this addon comes with their own boost libraries and llvm headers. I decided to
+make a Debian package for easy installation and use it with system libraries.
+Build system is patched in this package in order to use system libraries.
+
+This package is **almost** lintian clean. Only problem is libclang is not
+available in any system library directory and linker using RPATH. Debian will
+not accept a package with [RpathIssue](http://wiki.debian.org/RpathIssue).
+
+*This addon requires libclang1-3.3 and libclang1-3.3-dev packages.
+It's currently only available in Debian jessie/sid and Ubuntu saucy.*
+
+Let's build YouCompleteMe for our system.
+
+### Install required packages
+
+This package needs following build dependencies:
+
+ * git-buildpackage
+ * pristine-tar
+ * debhelper (>= 9)
+ * dpkg-dev (>= 1.16.1~)
+ * cmake
+ * libpython-dev
+ * libclang-3.3-dev
+ * libboost-python1.53-dev
+ * libboost-system1.53-dev
+ * libboost-filesystem1.53-dev
+ * libboost-regex1.53-dev
+ * libboost-thread1.53-dev
+ * vim-addon-manager
+
+
+Install all build dependencies in one command:
+
+    $ sudo apt-get install debhelper dpkg-dev cmake libpython-dev libclang-3.3-dev libboost-python1.53-dev libboost-system1.53-dev libboost-filesystem1.53-dev libboost-regex1.53-dev libboost-thread1.53-dev
+
+
+### Clone our package repository with git-buildpackage
+
+You can find package in <http://anonscm.debian.org/gitweb/?p=users/onur-guest/vim-youcompleteme.git;a=summary>.
+
+Clone my repository with git-buildpackage:
+
+    $ git://anonscm.debian.org/users/onur-guest/vim-youcompleteme.git
+
+
+### Build package
+
+Enter package directory first and run git-buildpackage command in this
+directory. It will create orig.tar.gz and apply all patches.
+
+    $ cd vim-youcompleteme
+    $ git-buildpackage
+
+### Install package and enable it with vam
+
+Install debian package in top directory and enable YouCompleteMe with
+vim-addon-manager.
+
+    $ cd ../
+    $ sudo dpkg -i vim-youcompleteme_20130727+ds1+gitf347885-1_amd64.deb
+    $ vam install youcompleteme
+
+And YouCompleteMe is ready. Happy coding :-)
