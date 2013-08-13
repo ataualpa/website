@@ -10,12 +10,12 @@ this addon comes with their own boost libraries and llvm headers. I decided to
 make a Debian package for easy installation and use it with system libraries.
 Build system is patched in this package in order to use system libraries.
 
-This package is **almost** lintian clean. Only problem is libclang is not
+This package is *almost* lintian clean. Only problem is libclang is not
 available in any system library directory and linker using RPATH. Debian will
 not accept a package with [RpathIssue](http://wiki.debian.org/RpathIssue).
 
-*This addon requires libclang1-3.3 and libclang1-3.3-dev packages.
-It's currently only available in Debian jessie/sid and Ubuntu saucy.*
+**This addon requires libclang1-3.3 and libclang1-3.3-dev packages.
+It's currently only available in Debian jessie/sid and Ubuntu saucy.**
 
 Let's build YouCompleteMe for our system.
 
