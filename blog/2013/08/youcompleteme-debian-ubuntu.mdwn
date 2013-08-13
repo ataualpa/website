@@ -49,7 +49,7 @@ You can find package in <http://anonscm.debian.org/gitweb/?p=users/onur-guest/vi
 
 Clone my repository with git-buildpackage:
 
-    $ git://anonscm.debian.org/users/onur-guest/vim-youcompleteme.git
+    $ gbp clone git://anonscm.debian.org/users/onur-guest/vim-youcompleteme.git
 
 
 ## Build package
