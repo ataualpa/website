@@ -2,4 +2,4 @@
 
 <p class="tcenter">Check [[archive]] page for all blog entries.</p>
 
-[[!inline pages="blog/2013/* and !*/tr"]]
+[[!inline pages="blog/2013/*/* and !*/tr"]]
