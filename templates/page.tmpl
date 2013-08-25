@@ -46,6 +46,13 @@
         </div>
 
         <div id="footer">
+
+            <div class="parentlinks">
+            <TMPL_LOOP PARENTLINKS>
+            <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
+            </TMPL_LOOP>
+            </span>
+
             <ul class="social">
                 <li><a href="http://github.com/onuraslan" title="Onur Aslan on GitHub">g</a></li>
             </ul>
