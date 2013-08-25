@@ -1,4 +1,5 @@
 [[!meta title="Blog"]]
-[[!inline pages="blog/2013/* and !*/tr"]]
 
-Check [[archive]] page for all blog entries.
+<span class="tcenter">Check [[archive]] page for all blog entries.</span>
+
+[[!inline pages="blog/2013/* and !*/tr"]]
