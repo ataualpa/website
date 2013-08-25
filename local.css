@@ -221,12 +221,16 @@ p img {
 	max-width: 100%;
 }
 
-ul {
+ol, ul {
   margin: 1em 2em;
 }
 
 ul li {
   list-style-type: circle;
+}
+
+ol li {
+  list-style-type: decimal;
 }
 
 div.feedlink {
