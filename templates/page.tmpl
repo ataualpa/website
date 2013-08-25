@@ -47,6 +47,14 @@
 
         <div id="footer">
 
+            <TMPL_IF TAGS>
+            <div class="tags">Tags:
+            <TMPL_LOOP TAGS>
+            <TMPL_VAR LINK>
+            </TMPL_LOOP>
+            </div>
+            </TMPL_IF>
+
             <div class="parentlinks">
             <TMPL_LOOP PARENTLINKS>
             <a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
