@@ -229,6 +229,10 @@ ul li {
   list-style-type: circle;
 }
 
+div.feedlink {
+  display: none;
+}
+
 #topbar ul { margin: 0; }
 
 /* end content */
