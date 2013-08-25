@@ -24,8 +24,8 @@
 <link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
 </TMPL_IF>
 </TMPL_LOOP>
-    </head>
-    <body>
+</head>
+<body>
 
         <div id="topbar">
             <ul class="social">
@@ -38,6 +38,8 @@
         <div id="content">
 
             <TMPL_IF TITLE><div id="pagetitle"><TMPL_VAR TITLE></div></TMPL_IF>
+            
+            <div class="datetime"><TMPL_VAR MTIME></div>
 
             <TMPL_VAR CONTENT>
 
@@ -50,9 +52,9 @@
             <div class="clearfix"></div>
 
             <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
-            <p>&copy; <TMPL_VAR MTIME> {{ site.time | date: "%Y" }} Onur Aslan</p>
+            <p>&copy; <TMPL_VAR MTIME> Onur Aslan</p>
 
         </div>
 
-    </body>
+</body>
 </html>
