@@ -1,9 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html>
 <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title><TMPL_IF TITLE><TMPL_VAR TITLE> - </TMPL_IF>Onur Aslan</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="icon" type="image/png" href="<TMPL_VAR BASEURL>favicon.png" />
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' type='text/css' />
 <link rel="stylesheet" type="text/css" href="<TMPL_VAR BASEURL>local.css" />
 <TMPL_IF DYNAMIC>
 <TMPL_IF FORCEBASEURL><base href="<TMPL_VAR FORCEBASEURL>" /><TMPL_ELSE>
@@ -22,60 +24,33 @@
 <link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
 </TMPL_IF>
 </TMPL_LOOP>
-</head>
+    </head>
+    <body>
 
-<body>
-<TMPL_IF SIDEBAR>
-<div class="sol">
-<TMPL_VAR SIDEBAR>
-</div>
-</TMPL_IF>
-<div class="main">
-<TMPL_IF TITLE><div class="pagetitle"><TMPL_VAR TITLE></div></TMPL_IF>
-<TMPL_IF PARENTLINKS>
-<div class="parentlinks">
-<TMPL_LOOP PARENTLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
-</TMPL_LOOP>
-</div>
-</TMPL_IF>
-<TMPL_VAR CONTENT>
+        <div id="topbar">
+            <ul class="social">
+                <li><a href="http://github.com/onuraslan" title="Onur Aslan on GitHub">g</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
 
-<TMPL_IF TAGS>
-<TMPL_IF HTML5><nav class="tags"><TMPL_ELSE><div class="tags"></TMPL_IF>
-Tags:
-<TMPL_LOOP TAGS>
-<TMPL_VAR LINK>
-</TMPL_LOOP>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
 
-<div id="footer">
-<TMPL_IF BACKLINKS>
-<TMPL_IF HTML5><nav id="backlinks"><TMPL_ELSE><div id="backlinks"></TMPL_IF>
-Links:
-<TMPL_LOOP BACKLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>
-</TMPL_LOOP>
-<TMPL_IF MORE_BACKLINKS>
-<span class="popup">...
-<span class="balloon">
-<TMPL_LOOP MORE_BACKLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>
-</TMPL_LOOP>
-</span>
-</span>
-</TMPL_IF>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-  <div class="licence">
-    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
-  </div>
-  <div class="meta">
-    Last edited <TMPL_VAR MTIME>
-  </div>
-</div>
-</div>
+        <div id="content">
 
-</body>
+            <TMPL_VAR CONTENT>
+
+        </div>
+
+        <div id="footer">
+            <ul class="social">
+                <li><a href="http://github.com/onuraslan" title="Onur Aslan on GitHub">g</a></li>
+            </ul>
+            <div class="clearfix"></div>
+
+            <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
+            <p>&copy; <TMPL_VAR MTIME> {{ site.time | date: "%Y" }} Onur Aslan</p>
+
+        </div>
+
+    </body>
 </html>
