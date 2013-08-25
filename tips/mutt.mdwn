@@ -1,0 +1,10 @@
+[[!meta title="Mutt Tips"]]
+
+# Delete messages older than 2w
+
+    D ~d >2w
+
+# Move tagged messages
+
+	T
+    ;s
