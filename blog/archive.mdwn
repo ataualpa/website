@@ -1,2 +1,2 @@
 [[!meta title="Blog Archive"]]
-[[!inline pages="blog/2*" archive="yes" sort="path" reverse="yes"]]
+[[!inline pages="blog/2*/*/*" archive="yes" sort="path" reverse="yes"]]
