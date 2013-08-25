@@ -1,2 +1,2 @@
 [[!meta title="Archive"]]
-[[!inline pages="* and !*font/* and !*css/* and !*ikiwiki/* and !*smileys/* and !*annem/* and !*wow/* and !*wikiicons/*" archive="yes"]]
+[[!inline pages="* and !*font/* and !*templates/* and !*css/* and !*ikiwiki/* and !*smileys/* and !*annem/* and !*wow/* and !*wikiicons/*" archive="yes"]]
